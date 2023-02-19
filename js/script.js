@@ -8,9 +8,8 @@ form.addEventListener('submit', (e) => {
     const url = document.getElementById('url').value;
   const size = document.getElementById('size').value;
     e.preventDefault();
-    console.log(url,size)
     if(url === ''){
-        alert('please enter a url')
+        alert('Please enter a URL')
     }else{
         showSpinner();
         
